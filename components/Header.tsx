@@ -24,7 +24,7 @@ const Header: React.FC = () => {
               <Code2 size={24} strokeWidth={3} />
             </div>
             <div className="flex flex-col">
-              <span className="font-heading font-bold text-xl leading-none text-brand-black">LocalDev</span>
+              <span className="font-heading font-bold text-xl leading-none text-brand-black">IdProjectDev</span>
               <span className="text-[10px] text-brand-gray tracking-wider uppercase font-medium">Digital Agency</span>
             </div>
           </div>
