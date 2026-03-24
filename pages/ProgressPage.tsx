@@ -10,49 +10,44 @@ import {
 
 const ProgressPage: React.FC = () => {
   const [reportData, setReportData] = useState({
-    week: "Week 1",
-    progress: 0,
-    completedTasks: [],
-    inProgressTasks: [
+    week: "Week 2",
+    progress: 20,
+    completedTasks: [
       {
         id: 1,
-        title: "WordPress Access Setup",
-        description:
-          "Received and verified admin credentials, created backup admin account",
-      },
-      {
-        id: 2,
-        title: "Initial Site Audit",
+        title: "Initial Site",
         description:
           "Reviewed current website structure, plugins, and theme configuration",
       },
       {
+        id: 2,
+        title: "Wireframes & Mockups",
+        description: "Created site wireframes and mockups for the new layout",
+      },
+    ],
+    inProgressTasks: [
+      {
         id: 3,
-        title: "Backup Creation",
-        description: "Created full site backup before making any changes",
+        title: "Hi-Fi Design & Prototyping",
+        description:
+          "Creating high-fidelity mockups and interactive prototypes for the new website layout",
       },
       {
         id: 4,
-        title: "Homepage Layout Adjustments",
-        description:
-          "Working on minor layout modifications as per client requirements",
-      },
-      {
-        id: 5,
-        title: "Content Updates",
-        description: "Updating text content on About page and Services section",
+        title: "WordPress Implementation",
+        description: "Directly implementing the new Hi-Fi designs and prototypes into the live WordPress website",
       },
     ],
     plannedTasks: [
       {
-        id: 6,
-        title: "Final Testing",
-        description: "Test all changes across different browsers and devices",
+        id: 5,
+        title: "Responsive Optimization",
+        description: "Ensuring the new designs look perfect across all mobile and tablet devices",
       },
       {
-        id: 7,
-        title: "Client Review",
-        description: "Present changes to client for feedback and approval",
+        id: 6,
+        title: "Final Testing & Client Review",
+        description: "Test all changes and present the implemented designs for client feedback",
       },
     ],
   });
@@ -160,7 +155,7 @@ const ProgressPage: React.FC = () => {
           </div>
           <p className="text-gray-600 text-sm mt-4">
             Project is progressing as planned. Initial setup and requirements
-            analysis completed.
+            analysis, wireframes, and mockups have been completed.
           </p>
         </div>
 
@@ -281,14 +276,13 @@ const ProgressPage: React.FC = () => {
             </p>
             <p>
               <strong className="text-blue-700">Additional Notes:</strong> All
-              changes are being made on staging environment first before
-              applying to live site. Client feedback is pending on color scheme
-              adjustments.
+              Hi-Fi designs are actively being translated into the WordPress environment.
+              We are making sure the prototype closely matches the final live outcome.
             </p>
             <p>
-              <strong className="text-blue-700">Next Steps:</strong> Awaiting
-              client approval on homepage mockups before proceeding with
-              implementation.
+              <strong className="text-blue-700">Next Steps:</strong> Complete the 
+              WordPress implementation phase and prepare the site for a thorough 
+              responsive review across different devices.
             </p>
           </div>
         </div>
